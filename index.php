@@ -20,10 +20,10 @@
 		</div>
 		<div class='contenedor' style='width:29%; display:inline-block; vertical-align:top; height:80%;'>
 			<div>
-				<span>Introduce tu lista</span><br>
+				<span>List</span><br>
 				<textarea id='list' style='width:350px; height:80%;' onchange="checkMovies($(this).val())"></textarea>
 			</div>
-			<button type="button" style='font-family: "Press Start 2P"; margin-top:10px;' class="nes-btn is-success" onclick='makeRandom()'>Aleatorio!</button>
+			<button type="button" style='font-family: "Press Start 2P"; margin-top:10px;' class="nes-btn is-success" onclick='makeRandom()'>Random!</button>
 		</div>
 		<div class='contenedor' style='width:69%;display:inline-block; vertical-align:top;'>
 			<ol id='orden'></ol>
